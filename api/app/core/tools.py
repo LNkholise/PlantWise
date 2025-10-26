@@ -1,11 +1,8 @@
 from langchain_core.tools import tool
 from .supabase import get_supabase_client 
-from dotenv import load_dotenv
 import numpy as np
 import pandas as pd
 import os
-
-load_dotenv()
 
 db = get_supabase_client()
 
