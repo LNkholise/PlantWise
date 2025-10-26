@@ -9,9 +9,6 @@ from langchain.messages import RemoveMessage
 from langgraph.graph.message import REMOVE_ALL_MESSAGES
 from .tools import all_tools as tools_list
 from typing import Any
-from dotenv import load_dotenv
-
-load_dotenv()
 
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
