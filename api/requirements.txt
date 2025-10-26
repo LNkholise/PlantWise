@@ -1,0 +1,8 @@
+supabase==2.15.0
+uvicorn==0.34.2
+fastapi==0.115.12
+langchain==1.0.1
+langraph
+pydantic==2.10.3
+pandas==2.2.3
+numpy==2.1.3
