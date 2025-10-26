@@ -8,7 +8,7 @@ app = FastAPI(
     version="0.1.0"
 )
 
-origins = ["*"]
+origins = ["https://plant-wise-six.vercel.app"]
 
 app.add_middleware(
     CORSMiddleware,
